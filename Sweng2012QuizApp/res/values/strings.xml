@@ -1,0 +1,43 @@
+<resources>
+
+    <string name="app_name">Sweng2012QuizApp</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_show_questions">ShowQuestionsActivity</string>
+    <string name="next_question">Next Question</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="show_question">Show a random question</string>
+    <string name="submit_question">Submit quiz question</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="empty_string"></string>
+    <string name="title_activity_edit_question">EditQuestionActivity</string>
+    <string name="type_answer">Type in the answer</string>
+    <string name="type_question_text">Type in the question\'s text body</string>
+    <string name="type_tags">Type in the question\'s tags</string>
+    <string name="answers">Answers</string>
+    <string name="submit">Submit</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="incorrect">✘</string>
+    <string name="correct">✔</string>
+    <string name="title_activity_authentication">AuthenticationActivity</string>
+    <string name="hint_gaspar_user">GASPAR Username</string>
+    <string name="hint_gaspar_password">GASPAR Password</string>
+    <string name="login_button">Log in using Tequila</string>
+    <string name="logout_button">Log out</string>
+    <string name="title_activity_search_question">SearchQuestionActivity</string>
+    <string name="type_in_name_or_tag">Type in user name or tag</string>
+    <string name="search">Search</string>
+    <string name="tag">Tag</string>
+    <string name="owner">Owner</string>
+    <string name="search_question">Search questions</string>
+    <string name="like">Like</string>
+    <string name="dislike">Dislike</string>
+    <string name="text_incorrect">Incorrect</string>
+    <string name="you_have_not_rated">You have not rated this question</string>
+    <string name="title_activity_show_available_quizzes">ShowAvailableQuizzesActivity</string>
+    <string name="title_activity_show_quiz">ShowQuizActivity</string>
+    <string name="previous_question">Previous question</string>
+    <string name="hand_in_quiz">Hand in Quiz</string>
+    <string name="take_a_quiz">Take a Quiz</string>
+
+</resources>

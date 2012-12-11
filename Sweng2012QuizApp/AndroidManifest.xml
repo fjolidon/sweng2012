@@ -1,0 +1,52 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="epfl.sweng"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".entry.MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".showquestions.ShowQuestionsActivity"
+            android:label="@string/title_activity_show_questions" >
+        </activity>
+        <activity
+            android:name=".editquestions.EditQuestionActivity"
+            android:label="@string/title_activity_edit_question" >
+        </activity>
+        <activity
+            android:name=".authentication.AuthenticationActivity"
+            android:label="@string/title_activity_authentication" >
+        </activity>
+        <activity
+            android:name=".search.SearchQuestionActivity"
+            android:label="@string/title_activity_search_question" >
+        </activity>
+        <activity
+            android:name=".quizzes.ShowAvailableQuizzesActivity"
+            android:label="@string/title_activity_show_available_quizzes" >
+        </activity>
+        <activity
+            android:name=".quizzes.ShowQuizActivity"
+            android:label="@string/title_activity_show_quiz" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+		android:id="@+id/searchNameOrTagEditText"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="@string/type_in_name_or_tag"/>
+    <Button
+		android:id="@+id/searchButton"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="@string/search"/>
+    <RadioGroup 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <RadioButton 
+	        android:id="@+id/radioOwner"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/owner"/>
+	    <RadioButton 
+	        android:id="@+id/radioTag"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/tag"/>
+	</RadioGroup>
+	
+    <ListView
+	    android:id="@+id/searchResultsList"
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"/>
+        
+
+</LinearLayout>
